@@ -1,0 +1,16 @@
+PODS:
+  - scanCocoaPod (1.0.0)
+
+DEPENDENCIES:
+  - scanCocoaPod (from `../scanCocoaPod/`)
+
+EXTERNAL SOURCES:
+  scanCocoaPod:
+    :path: "../scanCocoaPod/"
+
+SPEC CHECKSUMS:
+  scanCocoaPod: 02a552d478ece47bfa30d6b43e74c73ccd475093
+
+PODFILE CHECKSUM: 8ee6b030c09d216a52b91bfd2756290e60edd627
+
+COCOAPODS: 1.10.1

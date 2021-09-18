@@ -1,0 +1,6 @@
+framework module scanCocoaPod {
+  umbrella header "scanCocoaPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
