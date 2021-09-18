@@ -11,6 +11,14 @@
 		2AE6FA9826F61F0D00DDBED2 /* ScanCocoaPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6FA9726F61F0D00DDBED2 /* ScanCocoaPodTests.swift */; };
 		2AE6FA9A26F61F0D00DDBED2 /* ScanCocoaPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE6FA8C26F61F0D00DDBED2 /* ScanCocoaPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2AE6FAA426F61F3200DDBED2 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6FAA326F61F3200DDBED2 /* Service.swift */; };
+		2AE6FAEC26F6336700DDBED2 /* BoundingBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6FAE426F6336600DDBED2 /* BoundingBoxView.swift */; };
+		2AE6FAED26F6336700DDBED2 /* VideoCameraType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6FAE526F6336700DDBED2 /* VideoCameraType.swift */; };
+		2AE6FAEE26F6336700DDBED2 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6FAE626F6336700DDBED2 /* VideoCapture.swift */; };
+		2AE6FAEF26F6336700DDBED2 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE6FAE726F6336700DDBED2 /* Storyboard.storyboard */; };
+		2AE6FAF026F6336700DDBED2 /* AVCaptureDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6FAE826F6336700DDBED2 /* AVCaptureDevice+Extension.swift */; };
+		2AE6FAF126F6336700DDBED2 /* framworkState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6FAE926F6336700DDBED2 /* framworkState.swift */; };
+		2AE6FAF226F6336700DDBED2 /* LiveScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6FAEA26F6336700DDBED2 /* LiveScanViewController.swift */; };
+		2AE6FAF326F6336700DDBED2 /* ModelDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6FAEB26F6336700DDBED2 /* ModelDescriptionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +39,14 @@
 		2AE6FA9726F61F0D00DDBED2 /* ScanCocoaPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanCocoaPodTests.swift; sourceTree = "<group>"; };
 		2AE6FA9926F61F0D00DDBED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AE6FAA326F61F3200DDBED2 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		2AE6FAE426F6336600DDBED2 /* BoundingBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoundingBoxView.swift; sourceTree = "<group>"; };
+		2AE6FAE526F6336700DDBED2 /* VideoCameraType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCameraType.swift; sourceTree = "<group>"; };
+		2AE6FAE626F6336700DDBED2 /* VideoCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		2AE6FAE726F6336700DDBED2 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		2AE6FAE826F6336700DDBED2 /* AVCaptureDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice+Extension.swift"; sourceTree = "<group>"; };
+		2AE6FAE926F6336700DDBED2 /* framworkState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = framworkState.swift; sourceTree = "<group>"; };
+		2AE6FAEA26F6336700DDBED2 /* LiveScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveScanViewController.swift; sourceTree = "<group>"; };
+		2AE6FAEB26F6336700DDBED2 /* ModelDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelDescriptionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +89,14 @@
 		2AE6FA8B26F61F0D00DDBED2 /* ScanCocoaPod */ = {
 			isa = PBXGroup;
 			children = (
+				2AE6FAE826F6336700DDBED2 /* AVCaptureDevice+Extension.swift */,
+				2AE6FAE426F6336600DDBED2 /* BoundingBoxView.swift */,
+				2AE6FAE926F6336700DDBED2 /* framworkState.swift */,
+				2AE6FAEA26F6336700DDBED2 /* LiveScanViewController.swift */,
+				2AE6FAEB26F6336700DDBED2 /* ModelDescriptionViewController.swift */,
+				2AE6FAE726F6336700DDBED2 /* Storyboard.storyboard */,
+				2AE6FAE526F6336700DDBED2 /* VideoCameraType.swift */,
+				2AE6FAE626F6336700DDBED2 /* VideoCapture.swift */,
 				2AE6FA8C26F61F0D00DDBED2 /* ScanCocoaPod.h */,
 				2AE6FA8D26F61F0D00DDBED2 /* Info.plist */,
 				2AE6FAA326F61F3200DDBED2 /* Service.swift */,
@@ -181,6 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AE6FAEF26F6336700DDBED2 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +223,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AE6FAF126F6336700DDBED2 /* framworkState.swift in Sources */,
+				2AE6FAEE26F6336700DDBED2 /* VideoCapture.swift in Sources */,
+				2AE6FAEC26F6336700DDBED2 /* BoundingBoxView.swift in Sources */,
+				2AE6FAF326F6336700DDBED2 /* ModelDescriptionViewController.swift in Sources */,
 				2AE6FAA426F61F3200DDBED2 /* Service.swift in Sources */,
+				2AE6FAF226F6336700DDBED2 /* LiveScanViewController.swift in Sources */,
+				2AE6FAF026F6336700DDBED2 /* AVCaptureDevice+Extension.swift in Sources */,
+				2AE6FAED26F6336700DDBED2 /* VideoCameraType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

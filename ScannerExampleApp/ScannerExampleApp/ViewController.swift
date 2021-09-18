@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let string = Service.doSomething()
+     
         // Do any additional setup after loading the view.
     }
     
